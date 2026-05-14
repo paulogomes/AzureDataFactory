@@ -1,0 +1,15 @@
+{
+	"name": "integration-data",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e4509f90-0f77-41f3-a1e2-242b890467fc",
+		"tenantId": "3210db8d-545e-4894-bf99-96dd9ca28b38"
+	}
+}
