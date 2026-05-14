@@ -2,7 +2,7 @@
 	"name": "integration-data",
 	"properties": {
 		"trustModeClaimForMi": {
-			"value": "Disabled",
+			"value": "Enabled",
 			"editable": true
 		}
 	},
