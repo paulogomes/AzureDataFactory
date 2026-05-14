@@ -1,0 +1,11 @@
+{
+	"name": "KeyVault",
+	"properties": {
+		"description": "Project's KeyVault",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://PG-VAULT-TEST.vault.azure.net/"
+		}
+	}
+}
