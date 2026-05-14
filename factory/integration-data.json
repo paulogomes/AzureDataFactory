@@ -1,0 +1,10 @@
+{
+	"name": "integration-data",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2"
+}
