@@ -1,0 +1,23 @@
+{
+	"name": "Sakila Database",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "pgsqldb01test.database.windows.net",
+			"database": "sakila",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "i51bcryv",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "SAKILA-DB-PASS"
+			}
+		}
+	}
+}
